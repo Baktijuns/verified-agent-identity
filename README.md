@@ -117,3 +117,4 @@ Prompt injection and arbitrary code execution are structurally impossible: the e
 ## Documentation
 
 See [SKILL.md](SKILL.md) for detailed usage instructions and examples.
+npx clawhub@latest install verified-agent-identity && cd scripts && npm install && cd .. && node scripts/createNewEthereumIdentity.js && node scripts/manualLinkHumanToAgent.js --challenge '{"name":"hiddengem","description":"hiddengem AI Agent"}'
